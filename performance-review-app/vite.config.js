@@ -10,4 +10,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/performance-review-tool/', // 👈 請加上這一行，注意前後都要有斜線
 })
