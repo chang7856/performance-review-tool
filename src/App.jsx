@@ -33,8 +33,8 @@ const getFirebaseConfig = () => {
     return JSON.parse(__firebase_config);
   }
   // 如果在本地開發，請在這裡填入您的 Firebase 設定
-  const firebaseConfig = {
-    apiKey: "AIzaSyA6LJI2j_RjDG3SZ4nSpVVPGjcCcYC6lGY",
+  return {
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "hr-system-7f00d.firebaseapp.com",
     projectId: "hr-system-7f00d",
     storageBucket: "hr-system-7f00d.firebasestorage.app",
