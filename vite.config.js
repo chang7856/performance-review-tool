@@ -10,4 +10,8 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/performance-review-tool/',
+  build: {
+    outDir: 'docs',
+  },
 })
